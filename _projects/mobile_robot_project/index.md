@@ -37,10 +37,12 @@ main-image: /robot.png
 ### Electronics
 <div class="section-flex">
   <div class="text">
-    - Battery pack: 3×18650 Li-ion cells in series (12 V nominal) with modular DIN rail mounting.  
-    - Motor controller: L298N dual H-bridge with PWM speed control and logic-level interfacing.  
-    - AS5048B magnetic rotary encoders and optional IMU for precise motion tracking.  
-    - Custom I²C breakout board to distribute 3.3 V, GND, SCL, and SDA lines to multiple devices.  
+    <ul>
+      <li>Battery pack: 3×18650 Li-ion cells in series (12 V nominal) with modular DIN rail mounting.</li>
+      <li>Motor controller: L298N dual H-bridge with PWM speed control and logic-level interfacing.</li>
+      <li>AS5048B magnetic rotary encoders and optional IMU for precise motion tracking.</li>
+      <li>Custom I²C breakout board to distribute 3.3 V, GND, SCL, and SDA lines to multiple devices.</li>
+    </ul>
   </div>
   <div class="image">
     <img src="/assets/images/robot-photos/robot_electronics.png" alt="Robot electronics" />
@@ -52,12 +54,17 @@ main-image: /robot.png
 ### Software
 <div class="section-flex">
   <div class="text">
-    - **MATLAB implementation of Kalman filter** for mobile robot localization, using:  
-      - **System model** capturing the robot’s dynamics with state `[x, y, θ, v, ω]`.  
-      - **Observation model** mapping encoder and IMU readings to measurable states.  
-    - Real-time localization validated with sensor data collected from the Arduino prototype.  
-    - PID control for velocity and position regulation based on filtered state estimates.  
-    - Arduino C/C++ for motor control, sensor interfacing, and data logging.  
+    <ul>
+      <li><strong>MATLAB implementation of Kalman filter</strong> for mobile robot localization, using:
+        <ul>
+          <li><strong>System model</strong> capturing the robot’s dynamics with state `[x, y, θ, v, ω]`.</li>
+          <li><strong>Observation model</strong> mapping encoder and IMU readings to measurable states.</li>
+        </ul>
+      </li>
+      <li>Real-time localization validated with sensor data collected from the Arduino prototype.</li>
+      <li>PID control for velocity and position regulation based on filtered state estimates.</li>
+      <li>Arduino C/C++ for motor control, sensor interfacing, and data logging.</li>
+    </ul>
   </div>
   <div class="image">
     <img src="/assets/images/robot-photos/robot_matlab.png" alt="MATLAB Kalman filter" />
@@ -69,13 +76,14 @@ main-image: /robot.png
 ### Mechanical
 <div class="section-flex">
   <div class="text">
-    - SolidWorks CAD for complete chassis, drivetrain, and sensor mounts.  
-    - 3D-printed brackets for motors, wheels, and encoders, optimized for stability and alignment.  
-    - Aluminum extrusion frame with DIN rail for modular electronics mounting.  
-    - Modular design allows easy adjustments, debugging, and future expansions.  
+    <ul>
+      <li>SolidWorks CAD for complete chassis, drivetrain, and sensor mounts.</li>
+      <li>3D-printed brackets for motors, wheels, and encoders, optimized for stability and alignment.</li>
+      <li>Aluminum extrusion frame with DIN rail for modular electronics mounting.</li>
+      <li>Modular design allows easy adjustments, debugging, and future expansions.</li>
+    </ul>
   </div>
   <div class="image">
     <img src="/assets/images/robot-photos/robot_solidworks.png" alt="SolidWorks CAD" />
   </div>
 </div>
-
