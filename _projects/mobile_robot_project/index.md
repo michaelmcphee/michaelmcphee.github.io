@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Autonomous Differential Drive Robot
-description: Designed and built a two-wheeled differential drive robot integrating mechanical, electrical, and control systems to validate a Kalman filter algorithm.
+description: A two-wheeled differential drive robot designed for testing and validating a Kalman filter algorithm for real-time localization.
 skills:
   - SolidWorks
   - MATLAB
@@ -38,21 +38,24 @@ main-image: /robot.png
 - Battery pack: 3×18650 Li-ion cells in series (12 V nominal) with modular DIN rail mounting.  
 - Motor controller: L298N dual H-bridge with PWM speed control and logic-level interfacing.  
 - AS5048B magnetic rotary encoders and optional IMU for precise motion tracking.  
-- Custom I²C breakout board to distribute 3.3 V, GND, SCL, and SDA lines to multiple devices.
+- Custom I²C breakout board to distribute 3.3 V, GND, SCL, and SDA lines to multiple devices.  
+
+{% include image-gallery.html images="robot_electronics.png" height="400" %}
 
 ### Software
 - **MATLAB implementation of Kalman filter** for mobile robot localization, using:  
-  - **System model** capturing the robot’s dynamics with state vector `[x, y, θ, v, ω]`.  
+  - **System model** capturing the robot’s dynamics with state `[x, y, θ, v, ω]`.  
   - **Observation model** mapping encoder and IMU readings to measurable states.  
 - Real-time localization validated with sensor data collected from the Arduino prototype.  
 - PID control for velocity and position regulation based on filtered state estimates.  
-- Arduino C/C++ for motor control, sensor interfacing, and data logging.
+- Arduino C/C++ for motor control, sensor interfacing, and data logging.  
+
+{% include image-gallery.html images="robot_matlab.png" height="400" %}
 
 ### Mechanical
 - SolidWorks CAD for complete chassis, drivetrain, and sensor mounts.  
 - 3D-printed brackets for motors, wheels, and encoders, optimized for stability and alignment.  
 - Aluminum extrusion frame with DIN rail for modular electronics mounting.  
-- Modular design allows easy adjustments, debugging, and future expansions.
+- Modular design allows easy adjustments, debugging, and future expansions.  
 
-## Visuals
-{% include image-gallery.html images="robot.png, solidworks_screenshot.png" height="400" %}
+{% include image-gallery.html images="robot_solidworks.png" height="400" %}
