@@ -18,6 +18,3 @@ skills:
 
 main-image: /robot.png
 ---
-
-# This is another demo
-
