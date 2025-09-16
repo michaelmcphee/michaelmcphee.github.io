@@ -14,9 +14,10 @@ title: Michael McPhee's Portfolio # This is what shows up in the tab of the brow
 name: Michael McPhee
 headline: Mechatronics Engineering Student - University of Waterloo
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Portfolio highlighting projects and experiences in robotics, embedded systems, 
-  controls, and mechatronics. Demonstrated skills in C/C++, MATLAB/Simulink, 
-  SolidWorks, and STM32 development through academic, research, and co-op work.
+ Welcome to my portfolio!
+ Take a look around to see the projects I’ve worked on and the skills I’ve built in robotics, embedded systems, controls, and mechatronics. 
+ I’ve developed experience in C/C++, MATLAB/Simulink, SolidWorks, and STM32 through academic projects, co-op work, and research.
+
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/avatar.jpeg
