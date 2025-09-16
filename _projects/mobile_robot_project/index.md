@@ -14,7 +14,7 @@ skills:
   - I²C Communication
   - PWM Motor Control
   - Electronics Wiring
-main-image: /robot.png
+main-image: /assets/images/robot-photos/robot.png
 ---
 
 ## Design Objectives

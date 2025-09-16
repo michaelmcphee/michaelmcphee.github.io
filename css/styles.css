@@ -965,7 +965,7 @@ footer p {
   }
   
   .section-flex .image img {
-    max-width: 100%;
+    width: 300px;
     height: auto;
     border-radius: 6px;        /* optional: rounded corners */
   }
