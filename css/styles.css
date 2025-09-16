@@ -947,3 +947,26 @@ footer p {
       
 }
 
+.section-flex {
+    display: flex;
+    align-items: center;       /* vertically center text & image */
+    justify-content: space-between;
+    gap: 20px;                 /* spacing between text and image */
+    margin-bottom: 40px;       /* spacing after each section */
+  }
+  
+  .section-flex .text {
+    flex: 2;                   /* text takes ~2/3 of width */
+  }
+  
+  .section-flex .image {
+    flex: 1;                   /* image takes ~1/3 of width */
+    text-align: right;
+  }
+  
+  .section-flex .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;        /* optional: rounded corners */
+  }
+  
