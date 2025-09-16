@@ -43,7 +43,7 @@ main-image: /robot.png
     - Custom I²C breakout board to distribute 3.3 V, GND, SCL, and SDA lines to multiple devices.  
   </div>
   <div class="image">
-    <img src="/assets/images/robot_electronics.png" alt="Robot electronics" />
+    <img src="/assets/images/robot-photos/robot_electronics.png" alt="Robot electronics" />
   </div>
 </div>
 
@@ -60,7 +60,7 @@ main-image: /robot.png
     - Arduino C/C++ for motor control, sensor interfacing, and data logging.  
   </div>
   <div class="image">
-    <img src="/assets/images/robot_matlab.png" alt="MATLAB Kalman filter" />
+    <img src="/assets/images/robot-photos/robot_matlab.png" alt="MATLAB Kalman filter" />
   </div>
 </div>
 
@@ -75,7 +75,7 @@ main-image: /robot.png
     - Modular design allows easy adjustments, debugging, and future expansions.  
   </div>
   <div class="image">
-    <img src="/assets/images/robot_solidworks.png" alt="SolidWorks CAD" />
+    <img src="/assets/images/robot-photos/robot_solidworks.png" alt="SolidWorks CAD" />
   </div>
 </div>
 
