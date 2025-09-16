@@ -57,7 +57,7 @@ main-image: /robot.png
     <ul>
       <li><strong>MATLAB implementation of Kalman filter</strong> for mobile robot localization, using:
         <ul>
-          <li><strong>System model</strong> capturing the robot’s dynamics with state `[x, y, θ, v, ω]`.</li>
+          <li><strong>System model</strong> capturing the robot’s dynamics with state vector [x, y, θ, v, ω].</li>
           <li><strong>Observation model</strong> mapping encoder and IMU readings to measurable states.</li>
         </ul>
       </li>
