@@ -4,7 +4,7 @@ Welcome to my personal engineering portfolio.
 This site highlights my projects and experiences in **mechatronics, robotics, and embedded systems**, built during co-op terms and academic projects at the University of Waterloo.  
 
 🔗 **Live site:** [https://michaelmcphee.github.io](https://michaelmcphee.github.io)  
-📄 **Resume:** [View PDF](./assets/resume/Resume.pdf)  
+📄 **Resume:** [View PDF](./assets/pdfs/resume.pdf)  
 💼 **LinkedIn:** [linkedin.com/in/michael-mcphee-uw](https://linkedin.com/in/michael-mcphee-uw)  
 
 

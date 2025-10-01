@@ -28,6 +28,9 @@ main-image: /ruler.png
 - Conducted an uncertainty analysis, determining maximum error of ±0.13 inches.  
 - Identified key improvements for future iterations, including a more robust potentiometer–gear interface.  
 
+📄 [Read the full Executive Summary (PDF)](/assets/pdfs/MTE201_Lab1_Executive_Summary.pdf)
+
+
 ## Technical Details
 ### Mechanical
 <div class="section-flex">
