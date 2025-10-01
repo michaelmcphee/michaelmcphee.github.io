@@ -70,7 +70,7 @@ main-image: /ruler.png
 <div class="section-flex">
   <div class="text">
     <ul>
-      <li>Used **gauge block standards** for calibration reference distances (0–4 inches).</li>
+      <li>Used gauge block standards for calibration reference distances (0–4 inches).</li>
       <li>Collected repeated measurements (3 trials per block) to evaluate repeatability.</li>
       <li>Generated calibration curve: <code>y(x) = -0.0045x + 4.1862</code>, mapping ADC value <em>x</em> to distance <em>y</em> (inches).</li>
       <li>Uncertainty analysis identified maximum deviation of ±0.13 inches.</li>
