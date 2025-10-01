@@ -11,7 +11,7 @@ skills:
   - Excel
   - Analog-to-Digital Conversion
   - Error Analysis
-main-image: ruler.png
+main-image: /ruler.png
 ---
 
 ## Design Objectives
@@ -40,7 +40,7 @@ main-image: ruler.png
     </ul>
   </div>
   <div class="image">
-    <img src="/assets/images/statistics-device/device_cad.png" alt="SolidWorks CAD model of device" />
+    <img src="/assets/images/ruler-photos/device_solidworks.png" alt="SolidWorks CAD model of device" />
   </div>
 </div>
 
@@ -75,6 +75,6 @@ main-image: ruler.png
     </ul>
   </div>
   <div class="image">
-    <img src="/assets/images/statistics-device/device_calibration.png" alt="Calibration curve of potentiometer vs true distance" />
+    <img src="/assets/images/ruler-photos/device_calibration.png" alt="Calibration curve of potentiometer vs true distance" />
   </div>
 </div>
