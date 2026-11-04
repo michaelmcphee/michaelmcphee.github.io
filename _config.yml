@@ -68,13 +68,6 @@ skills:
       - SPI
       - UART
 
-
-
-# Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   xandzvbb
-
-
-
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
 colors: # this is the basic theme
   text: "#1a1c20"

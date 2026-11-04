@@ -381,55 +381,6 @@ nav .right a:last-child:hover{
 }
 
 
-/* SECTION 4: Contact */
-.contact-section {
-    padding: 25px 25px;
-    max-width: 600px;
-    margin: 0 auto; 
-    border-radius: 20px; 
-    margin-bottom: 100px;
-      
-}
-
-.contact-section h2 {
-    font-size: 34px;
-    text-align: center;
-}
-
-.contact-section .group {
-    display: flex;
-}
-.contact-section .group .text {
-    flex:3;
-}
-.contact-section .group form {
-    flex:3;
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-section .group form input, .contact-section .group form textarea {
-    font-family: 'Poppins', sans-serif;
-    background-color: transparent;
-    border: 1px groove var(--text-color);
-    padding:5px;
-    margin-bottom: 10px;
-    outline: none;
-    resize: none;
-    font-size: 13px;
-}
-
-.contact-section .group form button {
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    background-color: var(--link-color);
-    border:none;
-    height: 50px;
-    cursor: pointer;
-    transition: 0.1s
-}
-
 @media (max-width: 1200px){
 
     .project-grid-section .grid-container .project-card {
@@ -456,13 +407,6 @@ nav .right a:last-child:hover{
     }
 }
     
-
-
-
-    /*SECTION 4:Contact */
-    .contact-section .group{
-        flex-direction: column;
-    }
 
 
 
@@ -503,10 +447,6 @@ nav .right a:last-child:hover{
   
 
 
-    /*SECTION 2:Skills */
-    .contact-section{
-        padding: 0 20px
-    }
 }
 
 

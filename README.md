@@ -33,8 +33,3 @@ Each project page includes **design objectives, outcomes, and technical details*
 - **Embedded:** STM32, Arduino, I²C, SPI, UART  
 
 ---
-
-
-## 📬 Contact
-If you’d like to get in touch, feel free to connect with me on [LinkedIn](https://linkedin.com/in/michael-mcphee-uw)  
-or use the contact form on the live portfolio site.  
