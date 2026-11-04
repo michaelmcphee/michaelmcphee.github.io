@@ -43,6 +43,9 @@ main-image: /ruler.png
     </ul>
   </div>
   <div class="image">
+    <img src="/assets/images/ruler-photos/ruler.png" alt="3D Printed Ruler" />
+  </div>
+  <div class="image">
     <img src="/assets/images/ruler-photos/device_solidworks.png" alt="SolidWorks CAD model of device" />
   </div>
 </div>
